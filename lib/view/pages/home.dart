@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:video_sample/condroller/provider.dart';
+import 'package:video_sample/view/widgets/alertbox_widget.dart';
 import 'package:video_sample/view/widgets/call.dart';
+import 'package:uuid/uuid.dart';
 
 class MyHome extends ConsumerWidget {
   const MyHome({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final callId = const Uuid().v4();
+    final idCondroller = TextEditingController();
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
@@ -37,13 +41,15 @@ class MyHome extends ConsumerWidget {
                 onPressed: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const MyCall(callID: "1"),
+                      builder: (context) => MyCall(callID: callId),
                     ),
                   );
                 },
                 child: const Text(
                   "Create",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
                 ),
               ),
               const SizedBox(
@@ -58,15 +64,18 @@ class MyHome extends ConsumerWidget {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => const MyCall(callID: "1"),
-                    ),
+                  showDialog(
+                    context: context,
+                    builder: (context) {
+                      return const ShowDialogWidget();
+                    },
                   );
                 },
                 child: const Text(
                   "Join Call",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
                 ),
               ),
             ],
