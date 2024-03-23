@@ -25,10 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -58,7 +55,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBkZ5B11F0ToN53AK1UWWY-vM9WSVUhcls',
-    appId: '1:615164192606:android:57ff237703b6b0ce7751cf',
+    appId: '1:615164192606:android:2c17c64a7d1042207751cf',
     messagingSenderId: '615164192606',
     projectId: 'videocall-a1db6',
     storageBucket: 'videocall-a1db6.appspot.com',
@@ -66,11 +63,23 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBYgIK8BLuif47i0btgLAuN3qFeyEbzpnw',
-    appId: '1:615164192606:ios:41d0ab0f906aa6ea7751cf',
+    appId: '1:615164192606:ios:91fccc08f3cd12537751cf',
     messagingSenderId: '615164192606',
     projectId: 'videocall-a1db6',
     storageBucket: 'videocall-a1db6.appspot.com',
-    iosClientId: '615164192606-kbenfech2ckoj8j9db6v7eack1rrpu1c.apps.googleusercontent.com',
-    iosBundleId: 'com.example.videocall',
+    androidClientId: '615164192606-6snaoviiuieh25lr1ukksuk9i21k850b.apps.googleusercontent.com',
+    iosClientId: '615164192606-sv3it8009f61ljum5r37o0tls2ju587m.apps.googleusercontent.com',
+    iosBundleId: 'com.example.videoSample',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBYgIK8BLuif47i0btgLAuN3qFeyEbzpnw',
+    appId: '1:615164192606:ios:2e64b5062ea1b97a7751cf',
+    messagingSenderId: '615164192606',
+    projectId: 'videocall-a1db6',
+    storageBucket: 'videocall-a1db6.appspot.com',
+    androidClientId: '615164192606-6snaoviiuieh25lr1ukksuk9i21k850b.apps.googleusercontent.com',
+    iosClientId: '615164192606-0bf8qfl2fqct71lracdh4p1lb9694n3l.apps.googleusercontent.com',
+    iosBundleId: 'com.example.videoSample.RunnerTests',
   );
 }

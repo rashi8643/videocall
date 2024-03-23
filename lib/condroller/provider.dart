@@ -22,4 +22,11 @@ class Login extends _$Login {
       () => Navigator.pushNamed(context, "home"),
     );
   }
+
+  Future<void> signOut(BuildContext context) async {
+    await FirebaseAuth.instance.signOut();
+    await GoogleSignIn().signOut();
+
+    Navigator.pop(context);
+  }
 }

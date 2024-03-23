@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "615164192606",
+    "project_id": "videocall-a1db6",
+    "storage_bucket": "videocall-a1db6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615164192606:android:2c17c64a7d1042207751cf",
+        "android_client_info": {
+          "package_name": "com.example.video_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615164192606-6snaoviiuieh25lr1ukksuk9i21k850b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.video_sample",
+            "certificate_hash": "1b1cb1eb6d8e3636f79a6e767b05353f32ffc538"
+          }
+        },
+        {
+          "client_id": "615164192606-45t77a614d330vm09v73l2tr3applqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkZ5B11F0ToN53AK1UWWY-vM9WSVUhcls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615164192606-45t77a614d330vm09v73l2tr3applqp9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615164192606-0bf8qfl2fqct71lracdh4p1lb9694n3l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videoSample.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615164192606:android:57ff237703b6b0ce7751cf",
+        "android_client_info": {
+          "package_name": "com.example.videocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615164192606-u3tsf6mfumskgcd74t4a1lfvv6l0epe4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videocall",
+            "certificate_hash": "1b1cb1eb6d8e3636f79a6e767b05353f32ffc538"
+          }
+        },
+        {
+          "client_id": "615164192606-45t77a614d330vm09v73l2tr3applqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkZ5B11F0ToN53AK1UWWY-vM9WSVUhcls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615164192606-45t77a614d330vm09v73l2tr3applqp9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615164192606-0bf8qfl2fqct71lracdh4p1lb9694n3l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videoSample.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615164192606:android:e9e605e21afd88887751cf",
+        "android_client_info": {
+          "package_name": "com.example.videocall_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615164192606-45t77a614d330vm09v73l2tr3applqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkZ5B11F0ToN53AK1UWWY-vM9WSVUhcls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615164192606-45t77a614d330vm09v73l2tr3applqp9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615164192606-0bf8qfl2fqct71lracdh4p1lb9694n3l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videoSample.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

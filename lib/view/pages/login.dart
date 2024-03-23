@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:videocall/condroller/provider.dart';
+import 'package:video_sample/condroller/provider.dart';
 
 class MyLogin extends ConsumerWidget {
   const MyLogin({Key? key}) : super(key: key);
